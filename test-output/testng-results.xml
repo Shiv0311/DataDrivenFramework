@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-28T16:32:03 IST" name="Data Driven Framework Test Suite" finished-at="2024-11-28T16:32:23 IST" duration-ms="20150">
+    <groups>
+    </groups>
+    <test started-at="2024-11-28T16:32:03 IST" name="Login Test" finished-at="2024-11-28T16:32:09 IST" duration-ms="5610">
+      <class name="com.shiv.testcases.LoginTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.LoginTest@4426bff1]" started-at="2024-11-28T16:32:03 IST" name="startTest" finished-at="2024-11-28T16:32:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.shiv.testcases.LoginTest@4426bff1]" started-at="2024-11-28T16:32:03 IST" name="loginAsBankManager" finished-at="2024-11-28T16:32:08 IST" duration-ms="5209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.LoginTest@4426bff1]" started-at="2024-11-28T16:32:08 IST" name="endTest" finished-at="2024-11-28T16:32:09 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.shiv.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2024-11-28T16:32:09 IST" name="Add Customer Test" finished-at="2024-11-28T16:32:23 IST" duration-ms="14317">
+      <class name="com.shiv.testcases.AddCustomerTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:10 IST" name="startTest" finished-at="2024-11-28T16:32:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:10 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:16 IST" duration-ms="5936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234wd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:16 IST" name="endTest" finished-at="2024-11-28T16:32:16 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:16 IST" name="startTest" finished-at="2024-11-28T16:32:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:16 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:16 IST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivkumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Konnuri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:16 IST" name="endTest" finished-at="2024-11-28T16:32:16 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:16 IST" name="startTest" finished-at="2024-11-28T16:32:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:16 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:17 IST" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ishita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234wd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:17 IST" name="endTest" finished-at="2024-11-28T16:32:17 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:17 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:18 IST" duration-ms="574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sehgal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234wd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:17 IST" name="startTest" finished-at="2024-11-28T16:32:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:18 IST" name="endTest" finished-at="2024-11-28T16:32:18 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:18 IST" name="startTest" finished-at="2024-11-28T16:32:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:18 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:18 IST" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivkumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Konnuri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:18 IST" name="endTest" finished-at="2024-11-28T16:32:18 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:18 IST" name="startTest" finished-at="2024-11-28T16:32:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:18 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:19 IST" duration-ms="534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivkumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:19 IST" name="endTest" finished-at="2024-11-28T16:32:19 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:19 IST" name="startTest" finished-at="2024-11-28T16:32:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:19 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:20 IST" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:20 IST" name="endTest" finished-at="2024-11-28T16:32:20 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:20 IST" name="startTest" finished-at="2024-11-28T16:32:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:20 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:20 IST" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Konnuri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:20 IST" name="endTest" finished-at="2024-11-28T16:32:20 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:20 IST" name="startTest" finished-at="2024-11-28T16:32:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:20 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:21 IST" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:21 IST" name="endTest" finished-at="2024-11-28T16:32:21 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:21 IST" name="startTest" finished-at="2024-11-28T16:32:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:21 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:21 IST" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Konnuri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:21 IST" name="endTest" finished-at="2024-11-28T16:32:21 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:21 IST" name="startTest" finished-at="2024-11-28T16:32:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:21 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:22 IST" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[       ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[        ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:22 IST" name="endTest" finished-at="2024-11-28T16:32:22 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:22 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-11-28T16:32:23 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please check the details]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:22 IST" name="startTest" finished-at="2024-11-28T16:32:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@39655d3e]" started-at="2024-11-28T16:32:23 IST" name="endTest" finished-at="2024-11-28T16:32:23 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.shiv.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2024-11-28T16:32:23 IST" name="Open Account Test" finished-at="2024-11-28T16:32:23 IST" duration-ms="125">
+      <class name="com.shiv.testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:31:59 IST" name="setUp" finished-at="2024-11-28T16:32:03 IST" duration-ms="4038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="startTest" finished-at="2024-11-28T16:32:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openAccountTest(java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="openAccountTest" data-provider="excelData" finished-at="2024-11-28T16:32:23 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements when the selector is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:214)
+at org.openqa.selenium.By$ByCssSelector.<init>(By.java:328)
+at org.openqa.selenium.By.cssSelector(By.java:112)
+at com.shiv.common.BaseSetup.click(BaseSetup.java:123)
+at com.shiv.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="endTest" finished-at="2024-11-28T16:32:23 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="startTest" finished-at="2024-11-28T16:32:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openAccountTest(java.lang.String,java.lang.String)[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="openAccountTest" data-provider="excelData" finished-at="2024-11-28T16:32:23 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivkumar Konnuri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements when the selector is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:214)
+at org.openqa.selenium.By$ByCssSelector.<init>(By.java:328)
+at org.openqa.selenium.By.cssSelector(By.java:112)
+at com.shiv.common.BaseSetup.click(BaseSetup.java:123)
+at com.shiv.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="endTest" finished-at="2024-11-28T16:32:23 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shiv.testcases.OpenAccountTest@1b7c473a]" started-at="2024-11-28T16:32:23 IST" name="tearDown" finished-at="2024-11-28T16:32:23 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shiv.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Framework Test Suite -->
+</testng-results>

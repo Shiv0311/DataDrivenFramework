@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer Test"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.038">
+  <properties />
+  
+  
+            <testcase name="addCustomerTest" time="0.719" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.594" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.822" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.534" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="5.936" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.615" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.574" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.769" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.715" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.527" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.596" classname="com.shiv.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.637" classname="com.shiv.testcases.AddCustomerTest" />
+      
+</testsuite>

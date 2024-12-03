@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Data Driven Framework Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Shivkumar.K\Selenium-Workspace\DataDrivenFramework\src\test\resources\com\shiv\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Data_Driven_Framework_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" class="hide-methods failed suite-Data_Driven_Framework_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Framework_Test_Suite -->
+                      <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" class="show-methods failed suite-Data_Driven_Framework_Test_Suite"> (show)</a> <!-- show-methods failed suite-Data_Driven_Framework_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driven_Framework_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.OpenAccountTest" class="method navigator-link" hash-for-method="openAccountTest(Raman Arora, Rupee)">openAccountTest(Raman Arora, Rupee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.OpenAccountTest" class="method navigator-link" hash-for-method="openAccountTest(Shivkumar Konnuri, Rupee)">openAccountTest(Shivkumar Konnuri, Rupee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driven_Framework_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" class="hide-methods passed suite-Data_Driven_Framework_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Data_Driven_Framework_Test_Suite -->
+                      <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" class="show-methods passed suite-Data_Driven_Framework_Test_Suite"> (show)</a> <!-- show-methods passed suite-Data_Driven_Framework_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Data_Driven_Framework_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(Shivkumar, Konnuri, , Customer added successfully, Y)">addCustomerTest(Shivkumar, Konnuri, , Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(, , 123456.0, Customer added successfully, Y)">addCustomerTest(, , 123456.0, Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(Shivkumar, Konnuri, 123456.0, Customer added successfully, Y)">addCustomerTest(Shivkumar, Konnuri, 123456.0, Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(Shivkumar, , , Customer added successfully, Y)">addCustomerTest(Shivkumar, , , Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(Raman, Arora, A234wd, Customer added successfully, Y)">addCustomerTest(Raman, Arora, A234wd, Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(Ishita, , A234wd, Customer added successfully, Y)">addCustomerTest(Ishita, , A234wd, Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(, Sehgal, A234wd, Customer added successfully, Y)">addCustomerTest(, Sehgal, A234wd, Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(  ,        ,         , Customer added successfully, Y)">addCustomerTest(  ,        ,         , Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(, , , Please check the details, Y)">addCustomerTest(, , , Please check the details, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(, , , Customer added successfully, Y)">addCustomerTest(, , , Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(, Konnuri, , Customer added successfully, Y)">addCustomerTest(, Konnuri, , Customer added successfully, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomerTest(Shiv, Konnuri, 123456.0, Customer added successfully, N)">addCustomerTest(Shiv, Konnuri, 123456.0, Customer added successfully, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Framework_Test_Suite" title="com.shiv.testcases.LoginTest" class="method navigator-link" hash-for-method="loginAsBankManager">loginAsBankManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Data_Driven_Framework_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Data_Driven_Framework_Test_Suite" class="panel Data_Driven_Framework_Test_Suite">
+          <div class="suite-Data_Driven_Framework_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.shiv.testcases.OpenAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountTest(Raman Arora, Rupee)">
+                  </a> <!-- openAccountTest(Raman Arora, Rupee) -->
+                  <span class="method-name">openAccountTest</span>
+                  <span class="parameters">(Raman Arora, Rupee)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:214)
+	at org.openqa.selenium.By$ByCssSelector.&lt;init&gt;(By.java:328)
+	at org.openqa.selenium.By.cssSelector(By.java:112)
+	at com.shiv.common.BaseSetup.click(BaseSetup.java:123)
+	at com.shiv.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountTest(Shivkumar Konnuri, Rupee)">
+                  </a> <!-- openAccountTest(Shivkumar Konnuri, Rupee) -->
+                  <span class="method-name">openAccountTest</span>
+                  <span class="parameters">(Shivkumar Konnuri, Rupee)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:214)
+	at org.openqa.selenium.By$ByCssSelector.&lt;init&gt;(By.java:328)
+	at org.openqa.selenium.By.cssSelector(By.java:112)
+	at com.shiv.common.BaseSetup.click(BaseSetup.java:123)
+	at com.shiv.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Framework_Test_Suite-class-failed -->
+          <div class="suite-Data_Driven_Framework_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shiv.testcases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(Shivkumar, Konnuri, , Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(Shivkumar, Konnuri, , Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(Shivkumar, Konnuri, , Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(, , 123456.0, Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(, , 123456.0, Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(, , 123456.0, Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(Shivkumar, Konnuri, 123456.0, Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(Shivkumar, Konnuri, 123456.0, Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(Shivkumar, Konnuri, 123456.0, Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(Shivkumar, , , Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(Shivkumar, , , Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(Shivkumar, , , Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(Raman, Arora, A234wd, Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(Raman, Arora, A234wd, Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(Raman, Arora, A234wd, Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(Ishita, , A234wd, Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(Ishita, , A234wd, Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(Ishita, , A234wd, Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(, Sehgal, A234wd, Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(, Sehgal, A234wd, Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(, Sehgal, A234wd, Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(  ,        ,         , Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(  ,        ,         , Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(  ,        ,         , Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(, , , Please check the details, Y)">
+                  </a> <!-- addCustomerTest(, , , Please check the details, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(, , , Please check the details, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(, , , Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(, , , Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(, , , Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(, Konnuri, , Customer added successfully, Y)">
+                  </a> <!-- addCustomerTest(, Konnuri, , Customer added successfully, Y) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(, Konnuri, , Customer added successfully, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest(Shiv, Konnuri, 123456.0, Customer added successfully, N)">
+                  </a> <!-- addCustomerTest(Shiv, Konnuri, 123456.0, Customer added successfully, N) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">(Shiv, Konnuri, 123456.0, Customer added successfully, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Framework_Test_Suite-class-passed -->
+          <div class="suite-Data_Driven_Framework_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shiv.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsBankManager">
+                  </a> <!-- loginAsBankManager -->
+                  <span class="method-name">loginAsBankManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Framework_Test_Suite-class-passed -->
+        </div> <!-- panel Data_Driven_Framework_Test_Suite -->
+        <div panel-name="test-xml-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shivkumar.K\Selenium-Workspace\DataDrivenFramework\src\test\resources\com\shiv\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Data Driven Framework Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.shiv.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shiv.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Customer Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shiv.testcases.AddCustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Customer Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Open Account Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shiv.testcases.OpenAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Open Account Test --&gt;
+&lt;/suite&gt; &lt;!-- Data Driven Framework Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Data Driven Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add Customer Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Open Account Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Data Driven Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Data Driven Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Data_Driven_Framework_Test_Suite');
+function tableData_Data_Driven_Framework_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addCustomerTest')
+data.setCell(0, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(0, 3, 5936);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginAsBankManager')
+data.setCell(1, 2, 'com.shiv.testcases.LoginTest')
+data.setCell(1, 3, 5209);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addCustomerTest')
+data.setCell(2, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(2, 3, 822);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addCustomerTest')
+data.setCell(3, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(3, 3, 769);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addCustomerTest')
+data.setCell(4, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(4, 3, 719);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addCustomerTest')
+data.setCell(5, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(5, 3, 715);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addCustomerTest')
+data.setCell(6, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(6, 3, 637);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addCustomerTest')
+data.setCell(7, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(7, 3, 615);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addCustomerTest')
+data.setCell(8, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(8, 3, 596);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addCustomerTest')
+data.setCell(9, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(9, 3, 594);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addCustomerTest')
+data.setCell(10, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(10, 3, 574);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addCustomerTest')
+data.setCell(11, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(11, 3, 534);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addCustomerTest')
+data.setCell(12, 2, 'com.shiv.testcases.AddCustomerTest')
+data.setCell(12, 3, 527);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'openAccountTest')
+data.setCell(13, 2, 'com.shiv.testcases.OpenAccountTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'openAccountTest')
+data.setCell(14, 2, 'com.shiv.testcases.OpenAccountTest')
+data.setCell(14, 3, 0);
+window.suiteTableData['Data_Driven_Framework_Test_Suite']= { tableData: data, tableDiv: 'times-div-Data_Driven_Framework_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-Data_Driven_Framework_Test_Suite">
+              </div> <!-- times-div-Data_Driven_Framework_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Data Driven Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Data_Driven_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shiv.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shiv.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">4063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginAsBankManager</span>
+                <span class="method-start">4068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9280 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shiv.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">10618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(Raman, Arora, A234wd, Customer added successfully, Y)</span>
+                <span class="method-start">10619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">16556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">16613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(Shivkumar, Konnuri, 123456.0, Customer added successfully, Y)</span>
+                <span class="method-start">16614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">17437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">17458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(Ishita, , A234wd, Customer added successfully, Y)</span>
+                <span class="method-start">17459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">18076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(, Sehgal, A234wd, Customer added successfully, Y)</span>
+                <span class="method-start">18095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">18095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">18670 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">18687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(Shivkumar, Konnuri, , Customer added successfully, Y)</span>
+                <span class="method-start">18688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">19407 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">19423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(Shivkumar, , , Customer added successfully, Y)</span>
+                <span class="method-start">19424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">19958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">19979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(, , 123456.0, Customer added successfully, Y)</span>
+                <span class="method-start">19980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">20576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">20602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(, Konnuri, , Customer added successfully, Y)</span>
+                <span class="method-start">20603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">21200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">21226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(, , , Customer added successfully, Y)</span>
+                <span class="method-start">21226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">21754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">21811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(Shiv, Konnuri, 123456.0, Customer added successfully, N)</span>
+                <span class="method-start">21813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">22452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">22483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(  ,        ,         , Customer added successfully, Y)</span>
+                <span class="method-start">22483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">23252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest(, , , Please check the details, Y)</span>
+                <span class="method-start">23284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">23284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">24001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shiv.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">24119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openAccountTest(Raman Arora, Rupee)</span>
+                <span class="method-start">24120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">24126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">24156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openAccountTest(Shivkumar Konnuri, Rupee)</span>
+                <span class="method-start">24157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">24160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24238 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

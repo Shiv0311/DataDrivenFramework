@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="12" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-03T14:57:30 IST" name="Data Driven Framework Test Suite" finished-at="2024-12-03T14:57:48 IST" duration-ms="17333">
+    <groups>
+    </groups>
+    <test started-at="2024-12-03T14:57:30 IST" name="Login Test" finished-at="2024-12-03T14:57:37 IST" duration-ms="6192">
+      <class name="com.shiv.testcases.LoginTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.LoginTest@416c58f5]" started-at="2024-12-03T14:57:30 IST" name="startTest" finished-at="2024-12-03T14:57:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.shiv.testcases.LoginTest@416c58f5]" started-at="2024-12-03T14:57:30 IST" name="loginTest" finished-at="2024-12-03T14:57:36 IST" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.LoginTest@416c58f5]" started-at="2024-12-03T14:57:36 IST" name="endTest" finished-at="2024-12-03T14:57:37 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.shiv.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2024-12-03T14:57:37 IST" name="Add Customer Test" finished-at="2024-12-03T14:57:47 IST" duration-ms="10895">
+      <class name="com.shiv.testcases.AddCustomerTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:37 IST" name="startTest" finished-at="2024-12-03T14:57:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:37 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:42 IST" duration-ms="5656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:42 IST" name="endTest" finished-at="2024-12-03T14:57:42 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:42 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:43 IST" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=123456.0, lastname=Konnuri, runmode=Y, firstname=Shivkumar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:42 IST" name="startTest" finished-at="2024-12-03T14:57:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:43 IST" name="endTest" finished-at="2024-12-03T14:57:43 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:43 IST" name="startTest" finished-at="2024-12-03T14:57:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:43 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:43 IST" duration-ms="496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=, runmode=Y, firstname=Ishita}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:43 IST" name="endTest" finished-at="2024-12-03T14:57:43 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:43 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:44 IST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:43 IST" name="startTest" finished-at="2024-12-03T14:57:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:44 IST" name="endTest" finished-at="2024-12-03T14:57:44 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:44 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:44 IST" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=, lastname=Konnuri, runmode=Y, firstname=Shivkumar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:44 IST" name="startTest" finished-at="2024-12-03T14:57:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:44 IST" name="endTest" finished-at="2024-12-03T14:57:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:44 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:45 IST" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=, lastname=, runmode=Y, firstname=Shivkumar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:44 IST" name="startTest" finished-at="2024-12-03T14:57:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:45 IST" name="endTest" finished-at="2024-12-03T14:57:45 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:45 IST" name="startTest" finished-at="2024-12-03T14:57:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:45 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:45 IST" duration-ms="461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=123456.0, lastname=, runmode=Y, firstname=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:45 IST" name="endTest" finished-at="2024-12-03T14:57:45 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:45 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:46 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=, lastname=Konnuri, runmode=Y, firstname=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:45 IST" name="startTest" finished-at="2024-12-03T14:57:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="endTest" finished-at="2024-12-03T14:57:46 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="startTest" finished-at="2024-12-03T14:57:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:46 IST" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=, lastname=, runmode=Y, firstname=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="endTest" finished-at="2024-12-03T14:57:46 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:46 IST" duration-ms="20" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=123456.0, lastname=Konnuri, runmode=N, firstname=Shiv}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test case as run mode for data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test case as run mode for data set is NO
+at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="startTest" finished-at="2024-12-03T14:57:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="endTest" finished-at="2024-12-03T14:57:46 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:47 IST" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=        , lastname=       , runmode=Y, firstname=  }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:46 IST" name="startTest" finished-at="2024-12-03T14:57:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:47 IST" name="endTest" finished-at="2024-12-03T14:57:47 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:47 IST" name="addCustomerTest" data-provider="excelData" finished-at="2024-12-03T14:57:47 IST" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Please check the details, postcode=, lastname=, runmode=Y, firstname=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:47 IST" name="startTest" finished-at="2024-12-03T14:57:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.AddCustomerTest@54e7df6a]" started-at="2024-12-03T14:57:47 IST" name="endTest" finished-at="2024-12-03T14:57:47 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.shiv.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2024-12-03T14:57:48 IST" name="Open Account Test" finished-at="2024-12-03T14:57:48 IST" duration-ms="154">
+      <class name="com.shiv.testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:27 IST" name="setUp" finished-at="2024-12-03T14:57:30 IST" duration-ms="3301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="startTest" finished-at="2024-12-03T14:57:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="openAccountTest" data-provider="excelData" finished-at="2024-12-03T14:57:48 IST" duration-ms="32" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, message=Account created successfully, runmode=N, customer=Raman Arora}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Run Mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Run Mode is NO
+at com.shiv.listeners.CustomListeners.onTestStart(CustomListeners.java:22)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:625)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="endTest" finished-at="2024-12-03T14:57:48 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="startTest" finished-at="2024-12-03T14:57:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="openAccountTest" data-provider="excelData" finished-at="2024-12-03T14:57:48 IST" duration-ms="24" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, message=Account created successfully, runmode=Y, customer=Shivkumar Konnuri}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Run Mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Run Mode is NO
+at com.shiv.listeners.CustomListeners.onTestStart(CustomListeners.java:22)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:625)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="endTest" finished-at="2024-12-03T14:57:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="startTest" finished-at="2024-12-03T14:57:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="openAccountTest" data-provider="excelData" finished-at="2024-12-03T14:57:48 IST" duration-ms="23" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=, message=, runmode=Y, customer=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Run Mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Run Mode is NO
+at com.shiv.listeners.CustomListeners.onTestStart(CustomListeners.java:22)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:625)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="endTest" finished-at="2024-12-03T14:57:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shiv.testcases.OpenAccountTest@64bce832]" started-at="2024-12-03T14:57:48 IST" name="tearDown" finished-at="2024-12-03T14:57:48 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shiv.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Framework Test Suite -->
+</testng-results>
