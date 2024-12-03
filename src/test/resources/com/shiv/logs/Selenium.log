@@ -2327,3 +2327,1047 @@ Session ID: faeeb7f25da420fcd919c3ac1bfa6c95
 03-12-2024 14:57:47.898 [main] DEBUG - Add Customer button clicked
 03-12-2024 14:57:47.901 [main] DEBUG - No alert present. Checking mandatory fields.
 03-12-2024 14:57:47.933 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:29.463 [main] DEBUG - config.properties file loaded
+03-12-2024 15:46:29.467 [main] DEBUG - OR.properties file loaded
+03-12-2024 15:46:31.358 [main] DEBUG - Chrome browser launched
+03-12-2024 15:46:32.969 [main] DEBUG - Navigated to URL: https://way2automation.com/angularjs-protractor/banking/#/login
+03-12-2024 15:46:33.007 [main] DEBUG - Browser window maximized
+03-12-2024 15:46:33.813 [main] DEBUG - Manager Login Button clicked
+03-12-2024 15:46:38.841 [main] DEBUG - Logged in url validated
+03-12-2024 15:46:38.853 [main] DEBUG - Add Customer Button is present
+03-12-2024 15:46:38.854 [main] DEBUG - Manager Logged in Succcessfully
+03-12-2024 15:46:39.489 [main] DEBUG - Test parameters - FirstName: Raman, LastName: Arora, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:39.561 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:44.585 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:45.214 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:45.224 [main] INFO  - Alert detected: Customer added successfully with customer id :6
+03-12-2024 15:46:45.225 [main] INFO  - actualAlertText = true
+03-12-2024 15:46:45.242 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :6
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0ad40425d2f6c13ab092cb594f6efdf, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64906/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0ad40425d2f6c13ab092cb594f6efdf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 15:46:45.369 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 15:46:45.369 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 15:46:45.373 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:45.423 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:45.539 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:45.685 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:45.698 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:46.240 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:46.248 [main] INFO  - Alert detected: Customer added successfully with customer id :7
+03-12-2024 15:46:46.249 [main] INFO  - actualAlertText = true
+03-12-2024 15:46:46.258 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :7
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0ad40425d2f6c13ab092cb594f6efdf, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64906/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0ad40425d2f6c13ab092cb594f6efdf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 15:46:46.406 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 15:46:46.407 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 15:46:46.412 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:46.474 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:46.563 [main] DEBUG - Test parameters - FirstName: Ishita, LastName: , ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:46.663 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:46.672 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:47.304 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:47.308 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:47.385 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:47.432 [main] DEBUG - Test parameters - FirstName: , LastName: Sehgal, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:47.535 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:47.544 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:48.184 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:48.189 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:48.250 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:48.324 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:48.451 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:48.460 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:49.070 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:49.074 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:49.187 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:49.250 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:49.386 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:49.392 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:49.902 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:49.908 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:49.977 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:50.031 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:50.130 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:50.140 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:50.637 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:50.641 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:50.695 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:50.782 [main] DEBUG - Test parameters - FirstName: , LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:50.873 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:50.880 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:51.376 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:51.380 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:51.416 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:51.462 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:51.562 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:51.568 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:52.140 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:52.146 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:52.211 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:52.350 [main] DEBUG - Test parameters - FirstName:   , LastName:        , ZipCode:         , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:46:52.474 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:52.482 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:53.054 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:53.058 [main] INFO  - Alert detected: Please check the details. Customer may be duplicate.
+03-12-2024 15:46:53.058 [main] INFO  - actualAlertText = false
+03-12-2024 15:46:53.064 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please check the details. Customer may be duplicate.}
+  (Session info: chrome=131.0.6778.86): Please check the details. Customer may be duplicate.
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0ad40425d2f6c13ab092cb594f6efdf, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64906/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0ad40425d2f6c13ab092cb594f6efdf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 15:46:53.192 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 15:46:53.193 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 15:46:53.196 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:53.238 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:46:53.289 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Please check the details, RunMode: Y
+03-12-2024 15:46:53.381 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:53.388 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:46:54.007 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:46:54.013 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:46:54.052 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:31.785 [main] DEBUG - config.properties file loaded
+03-12-2024 15:59:31.788 [main] DEBUG - OR.properties file loaded
+03-12-2024 15:59:34.972 [main] DEBUG - Chrome browser launched
+03-12-2024 15:59:36.149 [main] DEBUG - Navigated to URL: https://way2automation.com/angularjs-protractor/banking/#/login
+03-12-2024 15:59:36.189 [main] DEBUG - Browser window maximized
+03-12-2024 15:59:36.977 [main] DEBUG - Manager Login Button clicked
+03-12-2024 15:59:41.998 [main] DEBUG - Logged in url validated
+03-12-2024 15:59:42.008 [main] DEBUG - Add Customer Button is present
+03-12-2024 15:59:42.009 [main] DEBUG - Manager Logged in Succcessfully
+03-12-2024 15:59:42.398 [main] DEBUG - Test parameters - FirstName: Raman, LastName: Arora, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:42.465 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:47.495 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:47.927 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:47.934 [main] INFO  - Alert detected: Customer added successfully with customer id :6
+03-12-2024 15:59:47.934 [main] INFO  - actualAlertText = true
+03-12-2024 15:59:47.947 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :6
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61e56468fd52ff1c9f58f20e841a8c14, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65291/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61e56468fd52ff1c9f58f20e841a8c14
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 15:59:48.049 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 15:59:48.050 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 15:59:48.056 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:48.088 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:48.147 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:48.219 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:48.224 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:48.569 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:48.575 [main] INFO  - Alert detected: Customer added successfully with customer id :7
+03-12-2024 15:59:48.575 [main] INFO  - actualAlertText = true
+03-12-2024 15:59:48.580 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :7
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61e56468fd52ff1c9f58f20e841a8c14, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65291/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61e56468fd52ff1c9f58f20e841a8c14
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 15:59:48.662 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 15:59:48.662 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 15:59:48.665 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:48.691 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:48.733 [main] DEBUG - Test parameters - FirstName: Ishita, LastName: , ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:48.810 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:48.815 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:49.138 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:49.141 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:49.194 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:49.238 [main] DEBUG - Test parameters - FirstName: , LastName: Sehgal, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:49.311 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:49.316 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:49.642 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:49.644 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:49.670 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:49.703 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:49.789 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:49.795 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:50.110 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:50.112 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:50.178 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:50.221 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:50.297 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:50.304 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:50.660 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:50.662 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:50.715 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:50.765 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:50.842 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:50.847 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:51.166 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:51.169 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:51.198 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:51.230 [main] DEBUG - Test parameters - FirstName: , LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:51.306 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:51.311 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:51.623 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:51.626 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:51.652 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:51.680 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:51.759 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:51.763 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:52.062 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:52.063 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:52.086 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:52.151 [main] DEBUG - Test parameters - FirstName:   , LastName:        , ZipCode:         , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 15:59:52.237 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:52.242 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:52.557 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:52.562 [main] INFO  - Alert detected: Please check the details. Customer may be duplicate.
+03-12-2024 15:59:52.562 [main] INFO  - actualAlertText = false
+03-12-2024 15:59:52.564 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please check the details. Customer may be duplicate.}
+  (Session info: chrome=131.0.6778.86): Please check the details. Customer may be duplicate.
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61e56468fd52ff1c9f58f20e841a8c14, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65291/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61e56468fd52ff1c9f58f20e841a8c14
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 15:59:52.638 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 15:59:52.638 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 15:59:52.640 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:52.661 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 15:59:52.691 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Please check the details, RunMode: Y
+03-12-2024 15:59:52.766 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:52.773 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 15:59:53.115 [main] DEBUG - Add Customer button clicked
+03-12-2024 15:59:53.119 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 15:59:53.145 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:04:50.021 [main] DEBUG - config.properties file loaded
+03-12-2024 16:04:50.024 [main] DEBUG - OR.properties file loaded
+03-12-2024 16:04:51.868 [main] DEBUG - Chrome browser launched
+03-12-2024 16:04:52.833 [main] DEBUG - Navigated to URL: https://way2automation.com/angularjs-protractor/banking/#/login
+03-12-2024 16:04:52.865 [main] DEBUG - Browser window maximized
+03-12-2024 16:04:53.702 [main] DEBUG - Manager Login Button clicked
+03-12-2024 16:04:58.728 [main] DEBUG - Logged in url validated
+03-12-2024 16:04:58.742 [main] DEBUG - Add Customer Button is present
+03-12-2024 16:04:58.742 [main] DEBUG - Manager Logged in Succcessfully
+03-12-2024 16:04:59.141 [main] DEBUG - Test parameters - FirstName: Raman, LastName: Arora, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:04:59.206 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:04.226 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:04.629 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:04.633 [main] INFO  - Alert detected: Customer added successfully with customer id :6
+03-12-2024 16:05:04.635 [main] INFO  - actualAlertText = true
+03-12-2024 16:05:04.645 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :6
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00121cba99f8a352be4d18ec7164473e, findElement {using=css selector, value=input[ng-model='fName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65413/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00121cba99f8a352be4d18ec7164473e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 16:05:04.764 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 16:05:04.765 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 16:05:04.767 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:04.795 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:04.875 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:04.954 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:04.961 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:05.309 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:05.312 [main] INFO  - Alert detected: Customer added successfully with customer id :7
+03-12-2024 16:05:05.313 [main] INFO  - actualAlertText = true
+03-12-2024 16:05:05.316 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :7
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00121cba99f8a352be4d18ec7164473e, findElement {using=css selector, value=input[ng-model='fName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65413/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00121cba99f8a352be4d18ec7164473e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 16:05:05.396 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 16:05:05.396 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 16:05:05.398 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:05.423 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:05.459 [main] DEBUG - Test parameters - FirstName: Ishita, LastName: , ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:05.531 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:05.534 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:05.914 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:05.921 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:05.987 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:06.023 [main] DEBUG - Test parameters - FirstName: , LastName: Sehgal, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:06.114 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:06.122 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:06.489 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:06.492 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:06.515 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:06.546 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:06.606 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:06.613 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:06.945 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:06.948 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:07.020 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:07.062 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:07.122 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:07.127 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:07.509 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:07.512 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:07.562 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:07.595 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:07.664 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:07.668 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:07.974 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:07.977 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:08.005 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:08.047 [main] DEBUG - Test parameters - FirstName: , LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:08.126 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:08.130 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:08.484 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:08.487 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:08.516 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:08.557 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:08.623 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:08.626 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:08.949 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:08.954 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:08.984 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:09.060 [main] DEBUG - Test parameters - FirstName:   , LastName:        , ZipCode:         , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:05:09.130 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:09.133 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:09.486 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:09.489 [main] INFO  - Alert detected: Please check the details. Customer may be duplicate.
+03-12-2024 16:05:09.489 [main] INFO  - actualAlertText = false
+03-12-2024 16:05:09.493 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please check the details. Customer may be duplicate.}
+  (Session info: chrome=131.0.6778.86): Please check the details. Customer may be duplicate.
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00121cba99f8a352be4d18ec7164473e, findElement {using=css selector, value=input[ng-model='fName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65413/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00121cba99f8a352be4d18ec7164473e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 16:05:09.573 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 16:05:09.573 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 16:05:09.577 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:09.602 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:05:09.644 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Please check the details, RunMode: Y
+03-12-2024 16:05:09.718 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:09.722 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:05:10.050 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:05:10.053 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:05:10.079 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:09:58.869 [main] DEBUG - config.properties file loaded
+03-12-2024 16:09:58.873 [main] DEBUG - OR.properties file loaded
+03-12-2024 16:10:00.558 [main] DEBUG - Chrome browser launched
+03-12-2024 16:10:02.087 [main] DEBUG - Navigated to URL: https://way2automation.com/angularjs-protractor/banking/#/login
+03-12-2024 16:10:02.123 [main] DEBUG - Browser window maximized
+03-12-2024 16:10:02.926 [main] DEBUG - Manager Login Button clicked
+03-12-2024 16:10:07.959 [main] DEBUG - Logged in url validated
+03-12-2024 16:10:07.971 [main] DEBUG - Add Customer Button is present
+03-12-2024 16:10:07.973 [main] DEBUG - Manager Logged in Succcessfully
+03-12-2024 16:10:08.539 [main] DEBUG - Test parameters - FirstName: Raman, LastName: Arora, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:08.605 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:13.622 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:14.226 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:14.231 [main] INFO  - Alert detected: Customer added successfully with customer id :6
+03-12-2024 16:10:14.232 [main] INFO  - actualAlertText = true
+03-12-2024 16:10:14.246 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :6
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8547a296f14eb6f9da2a2a330ed3cc2, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49181/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8547a296f14eb6f9da2a2a330ed3cc2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 16:10:14.386 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 16:10:14.387 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 16:10:14.393 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:14.435 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:14.563 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:14.672 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:14.683 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:15.155 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:15.159 [main] INFO  - Alert detected: Customer added successfully with customer id :7
+03-12-2024 16:10:15.160 [main] INFO  - actualAlertText = true
+03-12-2024 16:10:15.165 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}
+  (Session info: chrome=131.0.6778.86): Customer added successfully with customer id :7
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8547a296f14eb6f9da2a2a330ed3cc2, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49181/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8547a296f14eb6f9da2a2a330ed3cc2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 16:10:15.292 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 16:10:15.292 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 16:10:15.295 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:15.328 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:15.394 [main] DEBUG - Test parameters - FirstName: Ishita, LastName: , ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:15.499 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:15.506 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:16.011 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:16.016 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:16.111 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:16.178 [main] DEBUG - Test parameters - FirstName: , LastName: Sehgal, ZipCode: A234wd, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:16.298 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:16.305 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:16.794 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:16.800 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:16.863 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:16.927 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:17.015 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:17.023 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:17.502 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:17.505 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:17.596 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:17.637 [main] DEBUG - Test parameters - FirstName: Shivkumar, LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:17.717 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:17.723 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:18.259 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:18.267 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:18.356 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:18.424 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: 123456.0, AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:18.535 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:18.541 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:19.077 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:19.080 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:19.109 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:19.184 [main] DEBUG - Test parameters - FirstName: , LastName: Konnuri, ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:19.317 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:19.329 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:19.901 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:19.905 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:19.948 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:20.017 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:20.096 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:20.101 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:20.620 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:20.625 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:20.672 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:20.760 [main] DEBUG - Test parameters - FirstName:   , LastName:        , ZipCode:         , AlertText: Customer added successfully, RunMode: Y
+03-12-2024 16:10:20.872 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:20.880 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:21.448 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:21.453 [main] INFO  - Alert detected: Please check the details. Customer may be duplicate.
+03-12-2024 16:10:21.454 [main] INFO  - actualAlertText = false
+03-12-2024 16:10:21.459 [main] DEBUG - Error while checking if text is empty for locator: firstNameInput
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please check the details. Customer may be duplicate.}
+  (Session info: chrome=131.0.6778.86): Please check the details. Customer may be duplicate.
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8547a296f14eb6f9da2a2a330ed3cc2, findElement {value=input[ng-model='fName'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\SHIVKU~1.K\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49181/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8547a296f14eb6f9da2a2a330ed3cc2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351) ~[selenium-remote-driver-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.23.0.jar:?]
+	at com.shiv.common.BaseSetup.isTextEmpty(BaseSetup.java:157) ~[test-classes/:?]
+	at com.shiv.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+03-12-2024 16:10:21.632 [main] DEBUG - areFieldsNotEmpty = true
+03-12-2024 16:10:21.633 [main] DEBUG - areFieldsEmpty = true
+03-12-2024 16:10:21.637 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:21.689 [main] DEBUG - Mandatory fields are missing or invalid.
+03-12-2024 16:10:21.741 [main] DEBUG - Test parameters - FirstName: , LastName: , ZipCode: , AlertText: Please check the details, RunMode: Y
+03-12-2024 16:10:21.890 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:21.899 [main] DEBUG - Navigated to Add Customer page
+03-12-2024 16:10:22.526 [main] DEBUG - Add Customer button clicked
+03-12-2024 16:10:22.529 [main] DEBUG - No alert present. Checking mandatory fields.
+03-12-2024 16:10:22.559 [main] DEBUG - Mandatory fields are missing or invalid.

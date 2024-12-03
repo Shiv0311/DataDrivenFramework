@@ -41,6 +41,7 @@ public class BaseSetup {
     public static ExtentReports extent;
     public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<>();
     String timestamp = new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date());
+    public static String browser;
 
     @BeforeSuite
     public void setUp() {
@@ -53,24 +54,52 @@ public class BaseSetup {
                 fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\com\\shiv\\properties\\OR.properties");
                 OR.load(fis);
                 log.debug("OR.properties file loaded");
-
-                String browser = config.getProperty("browser").toLowerCase();
-                switch (browser) {
-                    case "chrome":
-                        driver = new ChromeDriver();
-                        log.debug("Chrome browser launched");
-                        break;
-                    case "firefox":
-                        driver = new FirefoxDriver();
-                        log.debug("Firefox browser launched");
-                        break;
-                    case "edge":
-                        driver = new EdgeDriver();
-                        log.debug("Edge browser launched");
-                        break;
-                    default:
-                        throw new RuntimeException("Invalid browser specified in config.properties");
+                
+                
+                if(System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+                	browser = System.getenv("browser");
                 }
+                else {
+                	browser = config.getProperty("browser");
+                }
+                
+                config.setProperty("browser", browser);
+                
+                if(config.getProperty("browser").equals("chrome")) {
+                	
+                	driver = new ChromeDriver();
+                	log.debug("Chrome browser launched");
+                	
+                }
+                else if(config.getProperty("browser").equals("firefox")) {
+                	
+                	driver = new FirefoxDriver();
+                	log.debug("Firefox browser launched");
+                	
+                }
+                else if(config.getProperty("browser").equals("edge")) {
+                	
+                	driver = new EdgeDriver();
+                	log.debug("Edge browser launched");
+                	
+                }
+//                String browser = config.getProperty("browser").toLowerCase();
+//                switch (browser) {
+//                    case "chrome":
+//                        driver = new ChromeDriver();
+//                        log.debug("Chrome browser launched");
+//                        break;
+//                    case "firefox":
+//                        driver = new FirefoxDriver();
+//                        log.debug("Firefox browser launched");
+//                        break;
+//                    case "edge":
+//                        driver = new EdgeDriver();
+//                        log.debug("Edge browser launched");
+//                        break;
+//                    default:
+//                        throw new RuntimeException("Invalid browser specified in config.properties");
+//                }
 
                 driver.get(config.getProperty("testsiteurl"));
                 log.debug("Navigated to URL: " + config.getProperty("testsiteurl"));
